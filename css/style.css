@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  width: 1200px;
+  box-sizing: border-box;
+}
+.container-fluid{
+
+width: 100%;
+display: contents;
+
+}
+header{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(59, 61, 64, 25%), rgba(59, 61, 64, 50%)),
+url("../img/1.jpg");
+background-size: cover;
+padding: 50px 130px;
+
+
+
+}
+.header{
+ display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+
+  position: relative;
+}
+.header button{
+  color: #fff;
+}
+.bluid{
+  display: none;
+}
+.menu{
+
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  width: 80%;
+
+}
+
+.navbar-expand-sm .navbar-collapse {
+  
+  justify-content: space-between;
+  text-align: center;
+}
+
+.logo{
+
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: bold;
+ text-decoration: none;
+ padding: 0px 117px;
+ width: 20%;
+ float: left;
+}
+
+.nav-link{
+  color: #fff;
+
+}
+.nav1>ul,.iconscol{
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  padding: 0px 0px 0px 16px;
+
+}
+.nav1>ul>li,.iconscol>li{
+  list-style: none;
+  margin: 0px 16px;
+}
+
+.nav1>ul>li>a,.iconscol>li>a{
+  text-decoration: none;
+ color:#fff;
+ font-size:1em;
+}
+
+.active{
+  
+  border-bottom: 2px solid #fff;
+}
+.contenth{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.contenth>img{
+  width: 50px;
+  height: 50px;
+}
+.contenth>h1{
+ font-size: 52px;
+ color: white;
+ LETTER-SPACING: 0.3em;
+ font-weight: 800;
+}
+.contenth>p{
+  font-size: 24px;
+  color: white;
+  LETTER-SPACING: 0px;
+  font-weight: 600;
+ }
+ section{
+   width: 100%;
+   padding: 32px;
+   position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+align-items: center;
+
+padding-top: 12px;
+padding-bottom: 12px;
+ }
+
+
+ .content{
+   display: flex;
+   justify-content: center;
+   flex-flow: wrap;
+   flex-direction: row;
+ }
+
+ .section1{
+   background: #f9f9f9;
+ }
+ section>h2{
+font-size: 4em;
+font-weight: 800;
+ }
+
+ section>p{
+      font-family: adobe-caslon-pro,serif;
+  font-size: 24px;
+  font-weight: 600;
+   }
+   .content>p{
+    font-family: adobe-caslon-pro,serif;
+     text-align: left;
+     margin: 0px 46px 0px 46px;
+     width: 398px;
+    font-size: 0.8em;
+     }
+.section1 .btn1{
+       margin-top: 50px;
+       background: #2e71f2;
+       padding: 12px 44px;
+       border-radius: 32px;
+       font-weight: bold;
+       font-size: 0.75em;
+color: #fff;
+     }
+.section2{
+
+  position: relative;
+}
+.card{
+
+
+  width: 319px;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+align-items: center;
+padding: 30px;
+border: none;
+box-shadow: 1px 10px 17px #000;
+margin-top: 14px;
+margin-left: 14px;
+}
+.card>img{
+
+      width: 150px;
+      height: 150px;
+    border-radius: 50%;
+}
+.card-body{
+  padding: 12px;
+
+}
+.card-body>p{
+  font-family: 'Adobe Caslon Pro';
+  font-size: 1em;
+  font-weight: 600;
+  
+}
+.card-body>h3{
+  font-family: 'Adobe Caslon Pro';
+  font-size: 1em;
+  font-weight: 600;
+  
+}
+.card-body>h2{
+  font-family: 'Adobe Caslon Pro';
+  font-size: 1em;
+  font-weight: 600;
+  
+}
+.swiper,.swiper2 {
+  width: 80%;
+  overflow: hidden;
+  height: 100%;
+  padding: 12px;
+}
+
+
+
+.swiper-wrapper{
+
+  position: relative;
+
+    height: 457px;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.cdone .swiper-slide {
+
+ 
+  width: 319px!important;
+  margin: 0px 13px;
+  display: flex;
+
+  text-align: center;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.next1, .prev1  {
+  display: block;
+  color: #2e71f2;
+  top: 66%;
+}
+ .prev1 {
+ 
+  left: 44px;
+}
+
+.next1 {
+
+  right: 44px;
+
+}
+
+
+
+
+
+
+.section3{
+
+height: 639px;
+background-color: #2e71f2;
+}
+.section3 h5{
+  margin-top: 112px;
+  font-size: 13px;
+  color: #fff;
+}
+
+
+.nexttw, .prevtw{
+  color: #fff;
+  top: 50%;
+  display: block;
+  }
+  .prevtw {
+ 
+    left: 44px;
+  }
+  
+  .nexttw {
+  
+    right: 44px;
+  
+  }
+
+ 
+
+
+.cdtwo{
+  width: 586px!important;
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  padding: 0!important;
+}
+
+
+.cdtwo .swiper-slide {
+
+ 
+  width: 586px!important;
+  margin: 0px 13px;
+  display: flex;
+
+  text-align: center;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.ctwo  p{
+  margin: 0;
+  width: 100%;
+  font-family: 'Caslon pro';
+font-size: 2em;
+text-align: left;
+font-weight: 600;
+color: #fff;
+}
+hr{
+  color: #fff;
+}
+.name{
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+}
+.discription{
+  font-family: 'Caslon pro';
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+.section4{
+  
+  height: 523px;
+  background-color: #f9f9f9;
+  flex-direction: row;
+  }
+ .ct4{
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+}
+
+
+
+
+
+.ct4 h2{
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 52px;
+  color: #000;
+  text-align: left;
+
+}
+.ct4 p{
+  font-family: 'Caslon Pro';
+  font-weight: 600;
+  font-size: 20px;
+  color: #656b6f;
+ 
+  text-align: left;
+
+}
+.ct4 button{
+
+  font-weight: bold;
+  font-size: 11px;
+  padding: 18px 42px;
+  color: #fff;
+  width: 190px;
+  border: none;
+  text-align: center;
+  border-radius: 18px;
+  background-color: #2e71f2;
+
+}
+  .parti1,.parti2{
+width: 50%;
+text-align: center;
+  }
+  .parti2{
+    width: 50%;
+    text-align: left;
+      }
+  .parti1 img {
+    width: 300px;
+    height: 300px;
+    background-color: #3b3d40;
+    border-radius: 50%;
+      }
+
+
+
+
+
+
+
+  .section5{
+    height: 523px;
+    background-color: #fff;
+    flex-direction: row;
+    }
+
+
+.section6{
+  height: 699px;
+  background-image: linear-gradient(rgba(59, 61, 64, 25%), rgba(59, 61, 64, 50%)),
+url("../img/1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+  color: #fff;
+  text-align: center;
+  }
+  
+
+  .ct5 h2{
+font-size: 52px;
+font-weight: 800;
+
+  }
+  .ct5 button{
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+ margin: 64px 0px;
+      }
+      .ct5 button i{
+        font-size: 153px;
+        color: #2e71f2;
+      
+          }
+  .ct5 p{
+    font-family: 'Caslon Pro';
+    font-weight: 600;
+    font-size: 24px;
+    width: 400px;
+    margin: 0px 60px;
+      }
+
+  .section7{
+    height: 680px;
+    background-color: #fff;
+  }
+
+
+  .section7 .icon{
+
+    
+  text-align: center;
+    margin-top: 112px;
+   
+  }
+  .section7 .icon img{
+
+    height: 152px;
+    width: 152px;
+    margin-bottom: 30px;
+  }
+  .section7 .oute{
+display: flex;
+justify-content: center;
+   flex-direction: row;
+   flex-flow: wrap;
+   margin-top: 70px;
+   width: 100%;
+  }
+
+
+
+
+  .section7 .oute .card{
+   padding: 2px;
+    width: 245px;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+    height: max-content;
+    margin-bottom: 99px;
+  }
+
+  .section7 .oute img{
+    height: 25px;
+    width: 25px;
+  }
+  .section7 .oute h2{
+   
+    font-weight: 800;
+    font-size: 14px;
+  }
+
+  .section7 .oute p{
+    margin: 0;
+    font-family: 'Caslon Pro';
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+.section8{
+  height: 453px;
+  background-color: #48494b;
+}
+
+.section8 div{
+ margin-top: 118px;
+ margin-bottom: 70px;
+}
+.section8 div h2{
+
+  font-weight: 800;
+  font-size: 52px;
+  color: #fff;
+ }
+ .section8 div P{
+
+  font-family: 'Caslon Pro';
+    font-weight: 600;
+    font-size: 24px;
+  color: #fff;
+ }
+
+ .section8 form {
+
+  align-items: center;
+  margin-bottom: 107px;
+ }
+
+
+ .section8 form input[type=text]{
+
+  width: 400px;
+  height: 46px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 17px 20px;
+    font-size: 14px;
+    background-color: #656b6f;
+    color: #fff;
+ }
+
+ .section8 form input[type=submit]{
+
+  width: 158px;
+  height: 45px;
+    font-weight: bold;
+    border: none;
+    border-radius: 19px;
+    padding: 17px 40px;
+    font-size: 12px;
+    background-color: #2e71f2;
+    color: #fff;
+ }
+
+
+ input {
+  color: #fff;
+ }
+.section9{
+  height: 148px;
+  background-color: #3b3d40;
+  flex-direction: row;
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  color: #89898b;
+  position: relative;
+}
+
+.section9 .logof{
+  flex-direction: row;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  color: #fff;
+  
+}
+
+
+.section9 .logof .logo{
+  padding: 0px 14px;
+
+
+
+}
+button:hover,.section8 form input[type=submit]:hover {
+  background-color: #212223;
+  color: #2e71f2;
+}
+
+i:hover,.nav1 li a:hover {
+  color: #2e71f2;
+}

@@ -1,0 +1,271 @@
+@media(max-width:766px){
+
+
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+    flex-direction: column;
+    }
+    header {
+      
+        padding: 18px;
+    }
+    .header{
+        display: block;
+    }
+    .bluid{
+        display: block;
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: transparent;
+        position: absolute;
+    right: 22px;
+    }
+    .logo{
+font-size: 16px;
+padding: 0;
+    }
+    .section8 form input[type=text]{
+        width: 250px;
+    }
+    .menu{
+
+        display: none;
+
+    height: fit-content;
+    top: 74px;
+    position: absolute;
+    line-height: 24px;
+    width: 100%;
+    background-color: rgb(28 28 29);
+    
+      }
+
+      .nav1>ul{
+        display: block;
+        line-height: 80px;
+      text-align: center;
+      
+      }
+
+
+
+
+section{
+    padding: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+   
+}
+
+
+.contenth>h1 {
+
+
+    LETTER-SPACING: 0em;
+
+}
+.parti1 img {
+    width: 200px;
+    height: 200px;
+
+}
+.section8 {
+   height: auto;
+
+}
+.section8 div {
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+.contenth>p{
+
+
+    LETTER-SPACING: 0px;
+
+   }
+
+   .section1 ,.content p {
+
+       font-family: adobe-caslon-pro,serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+}
+   .section1 h2{
+
+    margin: 41px 4px 8px 12px;
+    font-size: 46px;
+  
+    text-align: left;
+}
+
+.content>p {
+    text-align: left;
+    margin: 0px;
+ width: 100%; 
+    font-size: 15px;
+    font-weight: 600;
+}
+.section1 .btn1{
+
+    width: 164px;
+    padding: 8px 23px;
+}
+.swiper {
+    width: 65%;
+}
+ .swiper2 {
+    width: 80%;
+}
+.swiper-wrapper {
+   
+    width: 100%;
+    justify-content: space-between!important;
+}
+.swiper-slide{
+    width: 100%!important;
+
+}
+.prevtw {
+ 
+    left: 20px;
+  }
+  
+  .nexttw {
+  
+    right: 20px;
+  
+  }
+.card {
+    width: 100%;
+    padding: 25px 0px;
+    left: -8px;
+}
+.card-body {
+    padding: 5px 5px;
+}
+.card-body p{
+    font-size: 16px;
+    text-align: center;
+}
+.card-body h4{
+    
+    font-size: 14px;
+
+}
+.next1, .prev1 {
+ 
+    top: 77%;
+}
+.prev1 {
+ 
+    left: 15px;
+}
+.next1{
+ 
+    right: 15px;
+}
+.cdtwo .swiper-slide {
+
+ 
+    width: 100%!important;
+  
+  }
+
+  .section3 h5 {
+  
+    margin-bottom: 45px;
+  }
+  .section4 , .section5{
+    height: 700px;
+    margin-bottom: 69px;
+}
+  .ct4 {
+flex-direction: column;
+text-align: center;
+  }
+.partie2t{
+    position: absolute;
+    bottom: 0;
+}
+.partie1t{
+position: absolute;
+Top: 0;
+
+}
+
+  .parti1, .parti2 {
+    width: 100%;
+    padding: 4px;
+  }
+  .ct4 {
+   width: 100%;
+  
+  }
+  .parti2 {
+      width: 100%;
+      text-align: center;
+  }
+  .parti2 h2,.partie2t h2 ,.section6 h2   {
+  
+    font-size: 46px;
+    text-align: center;
+}
+.parti2 p ,.partie2t p ,.section6 p{
+  
+    font-size: 20px;
+    text-align: center;
+}
+
+.section6{
+    height: 700px;
+}
+
+
+.ct5 button {
+    height: 107px;
+    width: 107px;
+   
+}
+.ct5 button i {
+   font-size: 107px;
+   
+}
+.ct5 p {
+   width: 100%;
+   margin: 0px;
+}
+.section7,.section9{
+    height: auto;
+}
+.section7 .oute .card {
+    padding: 2px;
+    width: 215px;
+   
+}
+.section8 form input[type=submit] {
+    
+    margin-top: 12px;
+}
+.section9 {
+flex-direction: column;
+}
+
+.section9 div{
+    width: 100%;
+}
+.section9 .logof {
+    
+    display: inline-grid;
+}
+.section9 .logof .logo {
+    width: 100%;
+    margin-top: 9px;
+    font-size: 24px;
+}
+.section2>h2 {
+    font-size: 44px;
+}
+}
